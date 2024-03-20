@@ -1,0 +1,65 @@
+/* .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    float: left;
+
+}
+
+.icon i {
+    font-size: 30px;
+    color: black;
+}
+.icon i:hover{
+    color: rgb(49, 38, 38);
+}
+#site-footer {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210 208 195);
+}
+
+#copywrite {
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.privacy-contact {
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.options{
+    /* font-family: "B612", sans-serif; */
+    font-family: "Bungee Hairline", sans-serif;
+    
+}
+.title{
+    font-family: "Quintessential", serif;
+}
+
+.navbar-brand {
+    font-family: "Cinzel", serif;
+}
